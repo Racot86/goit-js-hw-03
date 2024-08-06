@@ -1,7 +1,7 @@
 function filterArray(numbers, value){
     let filteredArray = [];
     numbers.forEach((number)=>{
-        if (number > value ) filteredArray.push(number);
+        if (number > value) filteredArray.push(number);
     });
     return filteredArray;
 }
